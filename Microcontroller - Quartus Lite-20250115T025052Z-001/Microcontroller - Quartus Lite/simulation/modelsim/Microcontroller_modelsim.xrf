@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Zero/Documents/Microcontroller/ALU.v
+source_file = 1, C:/Users/Zero/Documents/Microcontroller/Adder.v
+source_file = 1, C:/Users/Zero/Documents/Microcontroller/ControlUnit.v
+source_file = 1, C:/Users/Zero/Documents/Microcontroller/DMem.v
+source_file = 1, C:/Users/Zero/Documents/Microcontroller/MUX.v
+source_file = 1, C:/Users/Zero/Documents/Microcontroller/MicroController.v
+source_file = 1, C:/Users/Zero/Documents/Microcontroller/PMem.v
+source_file = 1, C:/Users/Zero/Documents/Microcontroller/instr_set.dat
+source_file = 1, C:/Users/Zero/Documents/Microcontroller/db/Microcontroller.cbx.xml
+design_name = MicroController
+instance = comp, \clk~input , clk~input, MicroController, 1
+instance = comp, \rst~input , rst~input, MicroController, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, MicroController, 1
